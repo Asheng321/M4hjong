@@ -27,7 +27,7 @@
       <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
         <config>
           <device>Nexus 4</device>
-          <theme>@android:style/Theme.Black.NoTitleBar</theme>
+          <theme>@android:style/Theme.Black.NoTitleBar.Fullscreen</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/rules.xml">
@@ -37,6 +37,9 @@
         </config>
       </layout>
     </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb34e857-f7ed-46cd-b673-87921ae37f3c" name="Default" comment="" />
@@ -102,69 +105,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Login.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="27" selection-start="832" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggedInMain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/LoggedInMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="43" selection-start="463" selection-end="463" vertical-scroll-proportion="0.41280353" vertical-offset="0" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loggedinmain.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/loggedinmain.xml">
+          <provider editor-type-id="text-editor">
+            <state line="41" column="51" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="40" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.39955848" vertical-offset="550" max-vertical-offset="1088">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#617#1033#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1132#1392#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1488#1752#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
+                <element signature="e#673#1046#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1146#1410#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1506#1782#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewAccount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/NewAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Forgot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Forgot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgot.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/forgot.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newaccount.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/newaccount.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
           <provider editor-type-id="text-editor">
-            <state line="47" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-14.76" vertical-offset="430" max-vertical-offset="901">
+            <state line="47" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -173,28 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/About.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rules.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Rules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider editor-type-id="text-editor">
-            <state line="40" column="44" selection-start="1941" selection-end="1941" vertical-scroll-proportion="-14.28" vertical-offset="323" max-vertical-offset="901">
+            <state line="31" column="9" selection-start="0" selection-end="2180" vertical-scroll-proportion="-1.16" vertical-offset="498" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -221,12 +193,16 @@
         <option value="$PROJECT_DIR$/res/layout/rules.xml" />
         <option value="$PROJECT_DIR$/res/layout/about.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/M4hjong/Forgot.java" />
         <option value="$PROJECT_DIR$/res/layout/forgot.xml" />
         <option value="$PROJECT_DIR$/res/layout/newaccount.xml" />
         <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/M4hjong/Logout.java" />
+        <option value="$PROJECT_DIR$/res/layout/logout.xml" />
         <option value="$PROJECT_DIR$/src/com/example/M4hjong/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/example/M4hjong/LoggedInMain.java" />
+        <option value="$PROJECT_DIR$/res/layout/loggedinmain.xml" />
       </list>
     </option>
   </component>
@@ -430,19 +406,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -468,6 +431,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -585,7 +561,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -594,7 +570,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29246676" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -602,7 +577,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29246676" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29246676" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -613,6 +588,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -637,6 +613,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="0" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/LoggedInMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="49" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/loggedinmain.xml">
+      <provider editor-type-id="text-editor">
+        <state line="41" column="51" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#673#1046#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1146#1410#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1506#1782#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider editor-type-id="text-editor">
+        <state line="47" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="0" selection-end="2180" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
@@ -836,40 +870,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/forgot.xml">
       <provider editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="1941" selection-end="1941" vertical-scroll-proportion="-14.28" vertical-offset="323" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Rules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="8" selection-start="1131" selection-end="1476" vertical-scroll-proportion="0.4370861" vertical-offset="363" max-vertical-offset="1088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-      <provider editor-type-id="text-editor">
-        <state line="47" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-14.76" vertical-offset="430" max-vertical-offset="901">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="428">
           <folding />
         </state>
       </provider>
@@ -879,26 +882,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/NewAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.26269317" vertical-offset="0" max-vertical-offset="453">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Forgot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.45033112" vertical-offset="0" max-vertical-offset="453">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/forgot.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="428">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/newaccount.xml">
@@ -911,18 +904,75 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Rules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.26269317" vertical-offset="0" max-vertical-offset="453">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="308" selection-end="308" vertical-scroll-proportion="0.41280353" vertical-offset="0" max-vertical-offset="453">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider editor-type-id="text-editor">
+        <state line="47" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="0" selection-end="2180" vertical-scroll-proportion="-1.16" vertical-offset="498" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="27" selection-start="832" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.39955848" vertical-offset="550" max-vertical-offset="1088">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#617#1033#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1132#1392#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1488#1752#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#673#1046#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1146#1410#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1506#1782#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/loggedinmain.xml">
+      <provider editor-type-id="text-editor">
+        <state line="41" column="51" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/M4hjong/LoggedInMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="463" selection-end="463" vertical-scroll-proportion="0.41280353" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
         </state>
       </provider>
     </entry>

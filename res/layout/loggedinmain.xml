@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#006400">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="M4hjong"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:textStyle="bold" android:textSize="48dp"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true" android:layout_alignParentStart="false"
+                  android:layout_alignParentBottom="true" android:id="@+id/linearLayout">
+        <Button
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+        <Button
+                android:id="@+id/ruleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rules"
+                android:layout_centerHorizontal="true"/>
+        <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log Out"
+                android:layout_centerHorizontal="true"/>
+        <Button
+                android:id="@+id/aboutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
