@@ -24,12 +24,12 @@ public class Login extends Activity {
         button1 = (Button) findViewById(R.id.logInFinalButton);
 
         button1.setOnClickListener(new View.OnClickListener() {
-
             @Override
-            public void onClick(View arg0) {
-                Intent loginIntent =
+            public void onClick(View view) {
+                Intent loginFinalIntent =
                         new Intent(Login.this, LoggedInMain.class);
-                startActivity(loginIntent);
+                        //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                startActivity(loginFinalIntent);
             }
 
         });
