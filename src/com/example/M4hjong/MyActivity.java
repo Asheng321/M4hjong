@@ -34,14 +34,35 @@ public class MyActivity extends Activity {
                // Intent browserIntent =
                         //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
                 //startActivity(browserIntent);
-                Intent activityIntent =
+                Intent gameIntent =
                         new Intent(MyActivity.this, Game.class);
-                startActivity(activityIntent);
+                startActivity(gameIntent);
 
             }
 
         });
 
+        button = (Button) findViewById(R.id.button2);
+
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ruleIntent =
+                        new Intent(MyActivity.this, Rules.class);
+                startActivity(ruleIntent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.button3);
+
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent aboutIntent =
+                        new Intent(MyActivity.this, About.class);
+                startActivity(aboutIntent);
+            }
+        });
     }
 
 }
