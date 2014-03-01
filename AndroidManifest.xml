@@ -18,5 +18,7 @@
         <activity android:name=".Login"/>
         <activity android:name=".Forgot"/>
         <activity android:name=".NewAccount"/>
+        <activity android:name=".LoggedInMain"/>
+        <activity android:name=".LogOut"/>
     </application>
 </manifest>

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import static android.view.View.OnClickListener;
 
-public class MyActivity extends Activity {
+public class LoggedInMain extends Activity {
 
     //add more buttons refactor needed
     Button button;
@@ -30,11 +30,11 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View arg0) {
 
-               // Intent browserIntent =
-                        //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                // Intent browserIntent =
+                //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
                 //startActivity(browserIntent);
                 Intent gameIntent =
-                        new Intent(MyActivity.this, Game.class);
+                        new Intent(LoggedInMain.this, Game.class);
                 startActivity(gameIntent);
 
             }
@@ -47,19 +47,19 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent ruleIntent =
-                        new Intent(MyActivity.this, Rules.class);
+                        new Intent(LoggedInMain.this, Rules.class);
                 startActivity(ruleIntent);
             }
         });
 
-        button = (Button) findViewById(R.id.loginButton);
+        button = (Button) findViewById(R.id.logoutButton);
 
         button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent loginIntent =
-                        new Intent(MyActivity.this, Login.class);
-                startActivity(loginIntent);
+                Intent logoutIntent =
+                        new Intent(LoggedInMain.this, MyActivity.class);
+                startActivity(logoutIntent);
             }
         });
 
@@ -69,7 +69,7 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent aboutIntent =
-                        new Intent(MyActivity.this, About.class);
+                        new Intent(LoggedInMain.this, About.class);
                 startActivity(aboutIntent);
             }
         });
