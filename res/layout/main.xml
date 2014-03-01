@@ -3,7 +3,7 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-        >
+                android:background="#006400">
 
     <TextView
             android:layout_width="fill_parent"
@@ -20,19 +20,25 @@
                     android:layout_centerInParent="true" android:layout_alignParentStart="false"
                     android:layout_alignParentBottom="true">
         <Button
-                android:id="@+id/button1"
+                android:id="@+id/playButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Play"
                 android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
         <Button
-                android:id="@+id/button2"
+            android:id="@+id/ruleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rules"
+            android:layout_centerHorizontal="true"/>
+        <Button
+                android:id="@+id/loginButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rules"
+                android:text="Log In"
                 android:layout_centerHorizontal="true"/>
         <Button
-                android:id="@+id/button3"
+                android:id="@+id/aboutButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="About"

@@ -11,6 +11,7 @@ import static android.view.View.OnClickListener;
 
 public class MyActivity extends Activity {
 
+    //add more buttons refactor needed
     Button button;
 
     @Override
@@ -24,7 +25,7 @@ public class MyActivity extends Activity {
 
     public void addListenerOnButton() {
 
-        button = (Button) findViewById(R.id.button1);
+        button = (Button) findViewById(R.id.playButton);
 
         button.setOnClickListener(new OnClickListener() {
 
@@ -42,7 +43,7 @@ public class MyActivity extends Activity {
 
         });
 
-        button = (Button) findViewById(R.id.button2);
+        button = (Button) findViewById(R.id.ruleButton);
 
         button.setOnClickListener(new OnClickListener() {
             @Override
@@ -53,7 +54,18 @@ public class MyActivity extends Activity {
             }
         });
 
-        button = (Button) findViewById(R.id.button3);
+        button = (Button) findViewById(R.id.loginButton);
+
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loginIntent =
+                        new Intent(MyActivity.this, Login.class);
+                startActivity(loginIntent);
+            }
+        });
+
+        button = (Button) findViewById(R.id.aboutButton);
 
         button.setOnClickListener(new OnClickListener() {
             @Override
