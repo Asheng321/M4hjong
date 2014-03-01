@@ -31,9 +31,12 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                Intent browserIntent =
-                        new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
-                startActivity(browserIntent);
+               // Intent browserIntent =
+                        //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                //startActivity(browserIntent);
+                Intent activityIntent =
+                        new Intent(MyActivity.this, Game.class);
+                startActivity(activityIntent);
 
             }
 
