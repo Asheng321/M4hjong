@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<<<<<<< HEAD
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
@@ -10,6 +11,15 @@
                   android:layout_height="match_parent" android:background="#006400">
 
         <TextView
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#006400">
+
+         <TextView
+>>>>>>> refs/heads/heatherDev
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -21,13 +31,22 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="The Objective"
+<<<<<<< HEAD
                 android:id="@+id/textView2"/>
+=======
+                android:id="@+id/textView2" android:layout_alignTop="@+id/textView5"
+                android:layout_alignParentLeft="true" android:layout_marginTop="71dp"/>
+>>>>>>> refs/heads/heatherDev
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="For every hand, your basic goal is to be the first player to get a hand composed of four sets and a pair. Each set can be either a pung, chow, or kong. A pung is a set of three identical tiles. A chow is a set of three tiles of the same suit and consecutive numbers. A kong is a set of four identical tiles. Each set can either be concealed or melded/exposed. Concealed sets are made of tiles from your initial hand and tiles you draw from the wall. Melded sets are formed by claiming discard from other players and are explained later in the special moves section. Concealed sets are not shown to other players unless you win the hand. Melded sets are immediately shown when they are formed. As explained earlier, the goal is to get four sets and a pair. The first player to reach this goal wins the hand. Most of the time, the winning hand will have exactly 14 tiles. If the hand includes kongs, it will have more than 14 tiles"
+<<<<<<< HEAD
                 android:id="@+id/textView3"/>
+=======
+                android:id="@+id/textView3" android:layout_below="@+id/textView" android:layout_alignParentLeft="true"/>
+>>>>>>> refs/heads/heatherDev
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,8 +59,17 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="East starts the game by discarding one tile from his hand and placing it face-up in the area in the middle of the walls, which is called the river. If nobody claims East's discard, then play resumes with the player to his right, South. Remember, players take turns going counter-clockwise. For most turns, you will simply draw a tile and then discard a tile. Many of the moves below require you to 'use the most recently discarded tile.' That refers discards from other players, not your own discards. For example, you can't discard a tile and then immediately claim it for a melded pung.
 If you claim a discard to make a melded set, that melded set cannot be integrated back into the concealed part of your hand. The melded set remains visible until the end of the hand."
+<<<<<<< HEAD
             android:id="@+id/textView5"/>
 
     </LinearLayout>
 </ScrollView>
+=======
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView3" android:layout_alignParentLeft="true"/>
+
+</LinearLayout>
+
+
+>>>>>>> refs/heads/heatherDev
 
