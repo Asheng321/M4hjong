@@ -11,4 +11,5 @@ public class Rules extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rules);
     }
+
 }

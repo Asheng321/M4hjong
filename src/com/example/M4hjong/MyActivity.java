@@ -2,7 +2,6 @@ package com.example.M4hjong;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,26 +11,38 @@ import static android.view.View.OnClickListener;
 public class MyActivity extends Activity {
 
     //add more buttons refactor needed
-    Button button;
+    Button anyButton ;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        // Font path
+        //String fontPath = "assets/fonts/Eadui.ttf";
+
+        // text view label
+        //TextView mainLogo = (TextView) findViewById(R.id.Eadui);
+
+        // Loading Font Face
+        //Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
+
+        // Applying font
+        //mainLogo.setTypeface(tf);
+
         addListenerOnButton();
     }
 
     public void addListenerOnButton() {
 
-        button = (Button) findViewById(R.id.playButton);
+        anyButton = (Button) findViewById(R.id.playButton);
 
-        button.setOnClickListener(new OnClickListener() {
+        anyButton.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
-               // Intent browserIntent =
-                        //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                // Intent browserIntent =
+                //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
                 //startActivity(browserIntent);
                 Intent gameIntent =
                         new Intent(MyActivity.this, Game.class);
@@ -41,9 +52,9 @@ public class MyActivity extends Activity {
 
         });
 
-        button = (Button) findViewById(R.id.ruleButton);
+        anyButton = (Button) findViewById(R.id.ruleButton);
 
-        button.setOnClickListener(new OnClickListener() {
+        anyButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent ruleIntent =
@@ -52,9 +63,9 @@ public class MyActivity extends Activity {
             }
         });
 
-        button = (Button) findViewById(R.id.loginButton);
+        anyButton = (Button) findViewById(R.id.loginButton);
 
-        button.setOnClickListener(new OnClickListener() {
+        anyButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent loginIntent =
@@ -63,9 +74,9 @@ public class MyActivity extends Activity {
             }
         });
 
-        button = (Button) findViewById(R.id.aboutButton);
+        anyButton = (Button) findViewById(R.id.aboutButton);
 
-        button.setOnClickListener(new OnClickListener() {
+        anyButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent aboutIntent =
