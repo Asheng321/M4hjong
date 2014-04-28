@@ -24,6 +24,9 @@ public class Game extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game);
     }**/
+
+    ImageView anyTile;
+
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -59,7 +62,27 @@ public class Game extends Activity {
         scaleImage(view13, 90);
         scaleImage(view14, 90);
 
+        addListenerOnClick();
+
     }
+
+    private void addListenerOnClick()
+    {
+        anyTile = (ImageView) findViewById(R.id.b11);
+
+        anyTile.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                // Intent browserIntent =
+                //new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                //startActivity(browserIntent);
+                //System.out.println("Hi");
+            }
+        });
+    }
+
     private void scaleImage(ImageView view, int boundBoxInDp)
     {
         // Get the ImageView and its bitmap
